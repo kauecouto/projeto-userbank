@@ -213,6 +213,7 @@ header a{
 #cartao{
     display: inline-block;
     margin-top: 40px;
+    padding-right: 40px;
 }
 
 .segunda-section{
