@@ -91,7 +91,7 @@ header a{
     background-color: var(--cor1);
     justify-content: center;
     align-items: center;
-    margin: 0%;
+    margin-right: 3px;
     
 }
 
@@ -110,7 +110,7 @@ header a{
 }
 
 .topo{
-    background-image: url(imagens/backgound1.png);
+    background-image: url(imagens/backgound2.png);
     height: 100%;
 }
 
@@ -183,6 +183,7 @@ header a{
 
 .conteudo-principal ul{
     padding-left: 35px;
+    padding-bottom: 50px;
 }
 
 .nav-principal{
@@ -213,7 +214,7 @@ header a{
 #cartao{
     display: inline-block;
     margin-top: 40px;
-    padding-right: 40px;
+    padding-right: 30px;
 }
 
 .segunda-section{
