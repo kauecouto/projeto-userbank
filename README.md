@@ -1,2 +1,2 @@
 # projeto-userbank
- projeto de um banco digital fictício.
+ Projeto de um banco digital fictício.
