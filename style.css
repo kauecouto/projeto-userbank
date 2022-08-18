@@ -56,6 +56,8 @@ header .menu-flex{
 header h2{
     font-size: 18px;
     font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header #logo{
@@ -111,41 +113,49 @@ header a{
 .principal{
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap-reverse;
+    padding-left: 60px;
+}
+ 
+.principal aside{
+    max-width: 455px;
+    width: 100%;
+    align-self: flex-start;
 }
 
 .conteudo-principal{
-    max-width: 490px;
+    max-width: 590px;
     width: 100%;
     display: inline-block;
     align-self: center;
-    margin-left: 60px;
     margin-top: 5px;
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
 }
 
 .conteudo-principal h1{
+    max-width: 490px;
     font-size: 52px;
     color: var(--cor5);
     margin-bottom: 10px;
 }
 
 .conteudo-principal p{
+    max-width: 490px;
+    width: 100%;
     font-size: 21px;
     margin-bottom: 60px;
-    padding-left: 5px;
     padding-top: 0%;
 }
 
-.conteudo-principal a{
-    max-width: 265px;
+.conteudo-principal #button{
+    max-width: 230px;
     width: 100%;
     height: 57px;
     background-color: var(--cor3);
-    padding: 15px;
     padding-right: 20px;
     padding-left: 18px;
     color: white;
@@ -155,7 +165,7 @@ header a{
 }
 
 .conteudo-principal ul{
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 .conteudo-principal ul,li{
@@ -164,16 +174,20 @@ header a{
 }
 
 .conteudo-principal li {
-    padding-right:15px;
+    padding-right:30px;
+}
 
+.conteudo-principal ul{
+    padding-left: 35px;
 }
 
 .nav-principal{
-    max-width: 700px;
+    max-width: 490px;
+    margin-right: 40px;
     width: 100%;
     display: flex;
-    margin: auto;
-    align-self: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .nav-principal>a{
