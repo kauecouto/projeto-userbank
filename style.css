@@ -400,19 +400,11 @@ header a{
     justify-content: center;
     padding: 20px;
     padding-top: 5px;
-    padding-left: 50px;
+    padding-left: 55px;
     margin-bottom: 50px;
+    padding-right: 10px;
 }
 
-.figuras-celular{
-    padding-left: 18px;
-}
-
-.figuras-celular li{
-    padding-bottom: 63px;
-    display: flex;
-    flex-direction: column;
-}
 
 #perguntas >h2{
     font-size: 26px;
@@ -421,6 +413,7 @@ header a{
     font-weight: bold;
     padding-right: 40px;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 #perguntas p{
@@ -428,6 +421,7 @@ header a{
     text-align: start;
     margin-bottom: 30px;
     padding-right: 40px;
+    padding-left: 10px;
 }
 
 footer{
