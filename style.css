@@ -82,11 +82,11 @@ header a{
     border-radius: 6px;
     color: black;
     text-decoration: none;
-    background-image: linear-gradient(to right, var(--cor2), white);
+    background-color: var(--cor1);
     justify-content: center;
     align-items: center;
     margin: 0px 22px;
-    box-shadow: 2px 3px 5px -2px rgba(0, 0, 0, 0.556);
+    
 }
 
 #header-buttom:hover{
@@ -105,6 +105,7 @@ header a{
 
 .topo{
     background-image: url(imagens/backgound1.png);
+    height: 100%;
 }
 
 .principal{
@@ -119,7 +120,7 @@ header a{
     width: 100%;
     display: inline-block;
     align-self: center;
-    margin-left: 70px;
+    margin-left: 60px;
     margin-top: 5px;
     display: flex;
     justify-content: center;
@@ -145,7 +146,7 @@ header a{
     height: 57px;
     background-color: var(--cor3);
     padding: 15px;
-    padding-right: 28px;
+    padding-right: 20px;
     padding-left: 18px;
     color: white;
     border-radius: 3px;
@@ -154,7 +155,7 @@ header a{
 }
 
 .conteudo-principal ul{
-    padding-left: 60px;
+    padding-left: 30px;
 }
 
 .conteudo-principal ul,li{
@@ -163,7 +164,7 @@ header a{
 }
 
 .conteudo-principal li {
-    padding-right:35px;
+    padding-right:15px;
 
 }
 
@@ -171,7 +172,6 @@ header a{
     max-width: 700px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     margin: auto;
     align-self: center;
 }
@@ -247,26 +247,34 @@ header a{
     margin-bottom: 40px;
 }
 
-article #figuras > li{
-    padding-bottom: 15px;
-    margin-top: 20px;
-}
-
-#figuras{
+.lista{
+    max-width: 680px;
     padding-left: 0%;
 }
 
-#lista{
-    padding-left: 10px;
+.lista li{
+    margin: 20px 1px;
+    display: flex;
 }
 
-#lista li > p{
+.lista div > p{
     margin-top: 0;
 }
 
-#lista li > h2{
-    margin-bottom: 7px;
-    color: var(--cor5);
+.lista li>img{
+    padding: 10px 0px;
+    padding-right: 10px;
+    height: 50px;
+    flex-shrink: 1;
+}
+
+.lista li>div{
+    float: right;
+}
+
+.lista div>h2{
+    margin-top: 0%;
+    margin-top: 7px;
 }
 
 .terceira-section{
@@ -277,7 +285,7 @@ article #figuras > li{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     padding-bottom: 60px;
     padding-top: 20px;
@@ -308,22 +316,21 @@ article #figuras > li{
 }
 
 .cards-vantagens{
-    max-width: 1000px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     margin: auto;
 }
 
 .cards-vantagens li{
-    max-width: 230px;
-    width: 100%;
+    max-width: 330px;
     height: 235px;
     background-color: var(--cor1);
     margin: 10px;
     border-radius: 6px;
     padding: 15px;
     flex-shrink: 1;
+    flex-grow: 3;
     position: relative;
 }
 
@@ -351,7 +358,7 @@ article #figuras > li{
     text-align: center;
     font-weight: normal;
     margin-bottom: 1px;
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .quarta-section h1{
@@ -366,16 +373,17 @@ article #figuras > li{
     font-size: 18px;
     text-align: center;
     margin-top: 1px;
+    margin-bottom: 5px;
 }
 
 .conteudo-ajuda{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
     padding: 20px;
-    margin-bottom: 20px;
+    padding-top: 5px;
     padding-left: 50px;
+    margin-bottom: 50px;
 }
 
 .figuras-celular{
@@ -388,32 +396,23 @@ article #figuras > li{
     flex-direction: column;
 }
 
-.perguntas-ajuda{
-    display: flex;
-    flex-direction: column;
-    padding-left: 25px;
-    margin-bottom: 20px;
-}
-
-.perguntas-ajuda li>p{
-    max-width: 600px;
-    padding-top: 8px;
-    text-align: start;
-    font-size: 18px;
-    margin-bottom: 48px;
-    text-align: justify;
-}
-
-.perguntas-ajuda li>h2{
-    text-align: start;
-    color: var(--cor5);
+#perguntas >h2{
     font-size: 26px;
+    color: var(--cor5);
+    text-align: start;
     font-weight: bold;
-    margin-top: 1px;
+}
+
+#perguntas p{
+    font-size: 15px;
+    text-align: start;
+    margin-bottom: 30px;
 }
 
 footer{
     background-color: var(--cor5);
+    margin-bottom: 0%;
+    padding-bottom: 0%;
 }
 
 footer p{
@@ -421,4 +420,5 @@ footer p{
     font-size: 16px;
     text-align: center;
     padding:6px;
+    margin-bottom: 0%;
 }
