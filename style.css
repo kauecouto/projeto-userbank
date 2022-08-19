@@ -91,9 +91,8 @@ header a{
     background-color: var(--cor1);
     justify-content: center;
     align-items: center;
-    margin-right: 3px;
+    margin-right: 15px;
     font-weight: 500;
-    
 }
 
 #header-buttom:hover{
@@ -375,7 +374,7 @@ header a{
 }
 
 .quarta-section {
-    padding: 18px;
+    padding: 25px;
 }
 
 .quarta-section h2{
@@ -468,11 +467,25 @@ footer p{
         padding-left: 10px;
     }
 
-    #logo, #header-buttom {
-        margin: 5px;
+    #logo{
+        margin-left: 15px;
     }
 
     #celular{
         margin-right: 30px;
+    }
+
+    .titulo-vantagens{
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:1120px) {
+    .principal{
+        padding: 0%;
+    }
+
+    .conteudo-principal{
+        margin-left: 50px;
     }
 }
