@@ -305,7 +305,7 @@ header a{
 .section-vantagens{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     max-width: 1200px;
     margin: auto;
     padding-bottom: 60px;
@@ -318,7 +318,7 @@ header a{
 }
 
 .titulo-vantagens{
-    max-width: 355px;
+    max-width: 370px;
     padding-left: 70px;
     margin-top: 50px;
 }
@@ -327,6 +327,7 @@ header a{
     color:var(--cor3) ;
     font-size: 19px;
     margin-bottom: 0%;
+    padding-left: 30px;
 }
 
 .titulo-vantagens h1{
@@ -334,13 +335,17 @@ header a{
     font-size: 35px;
     margin-top: 0px;
     margin-bottom: 30px;
+    padding-left: 30px;
 }
 
 .cards-vantagens{
-    max-width: 1200px;
+    max-width: 1150px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    align-self: center;
+    padding: 0%;
+    justify-content: center;
 }
 
 .cards-vantagens li{
@@ -476,7 +481,16 @@ footer p{
     }
 
     .titulo-vantagens{
-        padding-left: 50px;
+        padding-left: 0px;
+    }
+
+    .section-vantagens article{
+        align-self: center;
+    }
+
+    .cards-vantagens{
+        margin: auto;
+       padding-left: 0px;
     }
 }
 
