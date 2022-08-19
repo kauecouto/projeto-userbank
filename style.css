@@ -295,7 +295,7 @@ header a{
 
 .lista div>h2{
     margin-top: 0%;
-    margin-top: 7px;
+    margin-top: 15px;
 }
 
 .terceira-section{
@@ -448,6 +448,18 @@ footer p{
     text-align: center;
     padding:6px;
     margin-bottom: 0%;
+}
+
+@media (max-width: 600px) {
+    .principal .conteudo-principal{
+       max-width: 350px;
+       width: 100%;
+       margin-left: 0%;
+    }
+
+    .conteudo-principal h1,p{
+        padding: 10px;
+    }
 }
 
 @media (max-width: 700px) {
