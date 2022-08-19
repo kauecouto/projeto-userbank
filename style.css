@@ -56,7 +56,7 @@ header .menu-flex{
 header h2{
     padding: 0px 4px;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 500;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -92,6 +92,7 @@ header a{
     justify-content: center;
     align-items: center;
     margin-right: 3px;
+    font-weight: 500;
     
 }
 
@@ -110,7 +111,7 @@ header a{
 }
 
 .topo{
-    background-image: url(imagens/backgound2.png);
+    background-image: url(imagens/backgound3.png);
     height: 100%;
 }
 
@@ -134,6 +135,7 @@ header a{
     display: inline-block;
     align-self: center;
     margin-top: 5px;
+    margin-left: 105px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -214,7 +216,7 @@ header a{
 #cartao{
     display: inline-block;
     margin-top: 40px;
-    padding-right: 30px;
+    margin-left: 70px;
 }
 
 .segunda-section{
@@ -438,4 +440,35 @@ footer p{
     text-align: center;
     padding:6px;
     margin-bottom: 0%;
+}
+
+@media (max-width: 700px) {
+    .conteudo-principal{
+        margin-left: 50px;
+    }
+
+    .nav-principal{
+        max-width: 350px;
+        margin-bottom: 10px;
+    }
+
+    header h2{
+        display: none;
+    }
+
+    #cartao{
+        margin-left: 0%;
+    }
+
+    .principal{
+        padding-left: 10px;
+    }
+
+    #logo, #header-buttom {
+        margin: 5px;
+    }
+
+    #celular{
+        margin-right: 30px;
+    }
 }
