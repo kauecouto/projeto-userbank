@@ -222,7 +222,7 @@ header a{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 60px 50px;
+    margin: 60px 0px;
 }
 
 #celular{
@@ -266,6 +266,7 @@ header a{
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
+    padding: 30px;
 }
 
 .lista{
