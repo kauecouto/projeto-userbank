@@ -64,6 +64,7 @@ body{
     background-color: var(--cor1);
     border-radius: 30px 0px 0px 30px ;
     margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 .formulario{
@@ -112,7 +113,7 @@ input::placeholder{
     border: none;
     border-radius: 3px;
     align-self: center;
-    margin-top: 18px;
+    margin-top: 25px;
 }
 
 @media (max-width:1397px) {
