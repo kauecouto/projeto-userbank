@@ -134,4 +134,22 @@ input::placeholder{
     .criar-conta{
         justify-content: center;
     }
+
+    picture .foto-app {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:570px) {
+
+    .conteudo-introducao > h1{
+       max-width: 350px;
+    }
+
+    #header-buttom {
+        background-color: transparent;
+       
+    }
+
+
 }
