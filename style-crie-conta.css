@@ -61,7 +61,7 @@ body{
     min-height: 572px;
     box-sizing: border-box;
     padding: 20px 50px;
-    background-color: var(--cor1);
+    background-color: white;
     border-radius: 30px 0px 0px 30px ;
     margin-top: 25px;
     margin-bottom: 30px;
@@ -99,7 +99,6 @@ body{
 }
 
 input::placeholder{
-    padding-left: 10px;
     font-size: 15px;
 }
 
@@ -116,10 +115,16 @@ input::placeholder{
     margin-top: 25px;
 }
 
+.botao-criar:hover{
+    background-color: var(--cor4);
+    border: 0.5px solid rgba(0, 0, 0, 0.393);
+    color: rgb(234, 233, 233);
+}
+
 @media (max-width:1397px) {
     
     body{
-        background-color: var(--cor2);
+        background-color: var(--cor1);
         background-image: none;
     }
 
