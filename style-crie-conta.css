@@ -31,13 +31,14 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 .conteudo-introducao #seta-voltar{
     width: 33px;
     height: 28px;
     align-self: flex-start;
-    padding-left: 65px;
+    padding-left: 45px;
     padding-top: 30px;
 }
 
@@ -47,10 +48,6 @@ body{
     color: var(--cor5);
     font-size: 42px;
     margin-bottom: 20px;
-    margin-left: 30px;
-}
-
-.conteudo-introducao .foto-app{
     margin-left: 30px;
 }
 
@@ -132,9 +129,13 @@ input::placeholder{
         border-radius:30px;
         box-shadow: 0px 0px 5px -3px rgba(0, 0, 0, 0.503);
     }
+    
+    .conteudo-introducao{
+        margin-left: 0%;
+    }
 
     .conteudo-introducao #seta-voltar{
-        padding-left: 20px;
+        padding-left: 25px;
     }
 
     .criar-conta{

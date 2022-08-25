@@ -429,7 +429,7 @@ header a{
     color: var(--cor5);
     text-align: start;
     font-weight: bold;
-    padding-right: 40px;
+    padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
@@ -437,9 +437,6 @@ header a{
 #perguntas p{
     font-size: 15px;
     text-align: start;
-    margin-bottom: 30px;
-    padding-right: 40px;
-    padding-left: 10px;
 }
 
 footer{
@@ -465,6 +462,10 @@ footer p{
 
     .conteudo-principal h1,p{
         padding: 10px;
+    }
+
+    .conteudo-ajuda{
+        padding-left: 14px;
     }
 }
 
@@ -510,6 +511,11 @@ footer p{
         margin: auto;
        padding-left: 0px;
     }
+
+    .titulo-vantagens h1,p{
+        padding-left: 5px;
+    }
+
 }
 
 @media (max-width:1120px) {
