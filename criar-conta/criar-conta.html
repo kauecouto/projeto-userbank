@@ -5,29 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crie sua Conta</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-crie-conta.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style-crie-conta.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <main>
         <header>
             <div class="items-header">
                 <section class="menu-flex">
-                    <a href="index.html"><img src="imagens/logo-userbank2.png" alt="logo" id="logo"></a>
-                    <h2>UserBank <img src="imagens/Vector.png" alt="seta-baixo"> </h2>
-                    <h2>Conta Digital <img src="imagens/Vector.png" alt="seta-baixo"> </h2>
+                    <a href="index.html"><img src="../imagens/logo-userbank2.png" alt="logo" id="logo"></a>
+                    <h2>UserBank <img src="../imagens/Vector.png" alt="seta-baixo"> </h2>
+                    <h2>Conta Digital <img src="../imagens/Vector.png" alt="seta-baixo"> </h2>
                 </section>
-                <section id="header-buttom"><a href="">Login<img src="imagens/logo-buttom.png" alt="logo-usuário"></a></section>
+                <section id="header-buttom"><a href="">Login<img src="../imagens/logo-buttom.png" alt="logo-usuário"></a></section>
             </div>
         </header>
         <section class="criar-conta">
             <article class="introducao">
                 <div class="conteudo-introducao">
-                    <a href="index.html" id="seta-voltar"><img src="imagens/seta-voltar.png" alt="imagem-seta-voltar"></a>
+                    <a href="../home/index.html" id="seta-voltar"><img src="../imagens/seta-voltar.png" alt="imagem-seta-voltar"></a>
                     <h1> Abra sua conta UserBank</h1>
                     <picture class="foto-app">
-                        <source media="(max-width:570px)" srcset="imagens/app-userbank-p.png">
-                        <img src="imagens/app-userbank.png" alt="imagem-app-userbank">
+                        <source media="(max-width:570px)" srcset="../imagens/app-userbank-p.png">
+                        <img src="../imagens/app-userbank.png" alt="imagem-app-userbank">
                     </picture>
                 </div>
             </article>
@@ -42,7 +43,7 @@
                     <p>E-mail</p> <input type="email" name="email" placeholder="joaodasilva@exemplo.com">
                     <p>Cadastre sua Senha</p> <input type="password" name="password" placeholder="********">
                     <p>Confirme sua Senha</p> <input type="password" name="confirmar-password" placeholder="********">
-                    <button class="botao-criar">Criar Conta <img src="imagens/seta-buttom.png" alt="seta-botao"></button>
+                    <button class="botao-criar" id="botao-criar" onclick="criarconta()">Criar Conta <img src="../imagens/seta-buttom.png" alt="seta-botao"></button>
                 </form>
             </article>
         </section>
