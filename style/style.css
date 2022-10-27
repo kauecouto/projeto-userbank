@@ -10,6 +10,11 @@
     --cor6: #67747A;
 }
 
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
 body{
     padding: 0%;
     margin: 0%;
@@ -115,7 +120,10 @@ header a{
 }
 
 .topo{
-    background-image: url(../imagens/backgound2.png);
+    background-image: url(../imagens/backgound2.1.png);
+    background-size: 125rem;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100%;
 }
 
@@ -227,7 +235,6 @@ header a{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 60px 0px;
 }
 
 #celular{
@@ -518,7 +525,12 @@ footer p{
 
 }
 
-@media (max-width:1120px) {
+@media (max-width:1400px) {
+    .topo{
+        background-position: left;
+        background-size: 180rem;
+    }
+
     .principal{
         padding: 0%;
     }
